@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav ul li a {
   font-size: 18px;
-  padding: 30px 15px;
+  padding: 24px 15px;
   color: rgba(255, 255, 255, 0.8);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -583,7 +583,6 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
   position: relative;
   bottom: 0;
-  overflow: hidden;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -612,6 +611,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+
 }
 #fh5co-project .fh5co-project > a h3, #fh5co-project .fh5co-project > a span {
   z-index: 12;
@@ -638,6 +638,10 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 #fh5co-project .fh5co-project > a:hover:after {
@@ -658,10 +662,6 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 15px;
 }
 #fh5co-project .fh5co-project > a:hover img {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
 }
 @media screen and (max-width: 768px) {
   #fh5co-project .fh5co-project > a:hover img {
